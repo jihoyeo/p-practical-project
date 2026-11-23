@@ -55,7 +55,11 @@
 ## 6. Agentic AI 도입 계획
 
 - 프로젝트에서 에이전트가 맡을 작업과 사용자가 얻을 결과를 정리합니다. 예를 들어 교내 셔틀 프로젝트에서는 에이전트가 시간대별 수요와 배차 현황을 조회한 뒤 배차 대안을 비교할 수 있습니다.
-- 에이전트가 호출할 데이터나 분석 도구와 실행 순서를 정리합니다. 비용이 낮은 파운데이션 모델 API를 고를 때 Gemini나 Qwen을 후보로 검토할 수 있습니다.
+- 에이전트가 호출할 데이터나 분석 도구와 실행 순서를 정리합니다.
+- 파운데이션 모델 API는 예상 호출량, 입출력 토큰 단가, 필요한 도구 호출 지원 여부를 고려해 고릅니다.
+  - Gemini 3 Flash Preview (`gemini-3-flash-preview`) · [Google 공식 요금](https://aistudio.google.com/docs/pricing#gemini-3-flash-preview)
+  - Qwen3.7-Flash (`qwen3.7-flash`) · [Alibaba Cloud 공식 요금](https://docs.modelstudio.console.alibabacloud.com/en/model-studio/qwen3-7-flash)
+  - GPT-6.1 Terra (`gpt-6.1-terra`) · [OpenAI 공식 모델 문서 및 요금](https://developers.openai.com/api/docs/models/gpt-6.1-terra)
 - 캡스톤디자인 주제를 이어가는 경우 기존 대시보드의 어떤 기능에 에이전트를 붙일지 정하고, 최종 발표에서 에이전트가 대시보드에서 수행하는 작업을 설명합니다.
 
 ## 7. 기대 결과 (Expected Outcomes)
